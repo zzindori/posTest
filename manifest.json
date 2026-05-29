@@ -1,7 +1,7 @@
 {
-  "name": "포스 연습",
-  "short_name": "포스연습",
-  "description": "메뉴 위치 기억 연습용 POS 앱",
+  "name": "BBangWay",
+  "short_name": "BBangWay",
+  "description": "베이커리 POS 연습 앱",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,22 +10,16 @@
   "theme_color": "#cc0000",
   "icons": [
     {
-      "src": "icon-192.svg",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icon-512.svg",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-maskable.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

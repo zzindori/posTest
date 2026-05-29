@@ -1,11 +1,10 @@
-const CACHE_NAME = 'postest-v1';
+const CACHE_NAME = 'postest-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './icon-192.svg',
-  './icon-512.svg',
-  './icon-maskable.svg'
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {
