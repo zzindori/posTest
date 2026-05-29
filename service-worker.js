@@ -1,10 +1,11 @@
-const CACHE_NAME = 'postest-v2';
+const CACHE_NAME = 'postest-v3';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (e) => {
